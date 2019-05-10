@@ -1,6 +1,6 @@
 # Jungle Devs - Android Challenge #001 (Basic Layout)
 
-This challenge has the purpose to introduce the usage of the tools we use at jungle everyday while working in Android
+This challenge has the purpose to introduce the usage of the tools we use at Jungle everyday while working in Android
 projects. As well as providing the opportunity to consolidate knowledge about layout. The app you will implement can be
 previewed in the images below, and the real assets will be available in the Zeplin project on this
 [link](https://zpl.io/2pB6wYy)
@@ -17,13 +17,15 @@ previewed in the images below, and the real assets will be available in the Zepl
   * Wind speed.
   * Precipitation.
   * Humidity.
-* Clicking the today and tomorrow buttons switches the UI between these representations.
+* Clicking the today and tomorrow buttons switches the UI between the representations that were randomized on startup.
 
-<img src="/images/SplashScreen.png" height="35%" width="35%" />
-<img src="/images/Cloudy.png" height="35%" width="35%" />
-<img src="/images/MostlyCloudy.png" height="35%" width="35%" />
-<img src="/images/PartlyCloudy.png" height="35%" width="35%" />
-<img src="/images/Rain.png" height="35%" width="35%" />
-<img src="/images/Showers.png" height="35%" width="35%" />
-<img src="/images/Sunny.png" height="35%" width="35%" />
-<img src="/images/ThunderStorm.png" height="35%" width="35%" />
+<p float="left">
+<img src="/images/SplashScreen.png" height="15%" width="15%"/>
+<img src="/images/Cloudy.png" height="15%" width="15%"/>
+<img src="/images/MostlyCloudy.png" height="15%" width="15%"/>
+<img src="/images/PartlyCloudy.png" height="15%" width="15%" />
+<img src="/images/Rain.png" height="15%" width="15%" />
+<img src="/images/Showers.png" height="15%" width="15%" />
+<img src="/images/Sunny.png" height="15%" width="15%" />
+<img src="/images/ThunderStorm.png" height="15%" width="15%" />
+</p>
