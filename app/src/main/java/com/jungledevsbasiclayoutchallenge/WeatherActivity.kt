@@ -1,9 +1,8 @@
 package com.jungledevsbasiclayoutchallenge
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class WeatherActivity : AppCompatActivity() {
+class WeatherActivity: BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
