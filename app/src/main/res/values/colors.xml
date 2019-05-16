@@ -3,13 +3,18 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-    
+
+    <!-- font colors region -->
+    <color name="white">#fff</color>
+    <color name="transparent_white">#B8ffffff</color>
+    <!-- endregion -->
+
+    <!-- background gradients colors region -->
     <color name="skyBlue">#66c5ff</color>
     <color name="deepSkyBlue">#1580fd</color>
-
     <color name="darkerSkyBlue">#68b4ef</color>
     <color name="mediumBlue">#325ac2</color>
-    
     <color name="softBlue">#6086dc</color>
     <color name="darkSlateBlue">#273369</color>
+    <!-- endregion -->
 </resources>
