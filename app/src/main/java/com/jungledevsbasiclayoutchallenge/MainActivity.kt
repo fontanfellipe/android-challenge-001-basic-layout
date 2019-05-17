@@ -2,7 +2,7 @@ package com.jungledevsbasiclayoutchallenge
 
 import android.os.Bundle
 
-class MainActivity: BaseActivity() {
+class MainActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         setTheme(R.style.AppTheme)

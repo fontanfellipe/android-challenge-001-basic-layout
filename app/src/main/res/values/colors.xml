@@ -8,6 +8,7 @@
     <!-- font colors region -->
     <color name="white">#fff</color>
     <color name="transparent_white">#B8ffffff</color>
+    <color name="vanishing_white">#3Dffffff</color>
     <!-- endregion -->
 
     <!-- background gradients colors region -->
