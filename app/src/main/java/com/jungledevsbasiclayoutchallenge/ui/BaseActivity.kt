@@ -1,4 +1,4 @@
-package com.jungledevsbasiclayoutchallenge
+package com.jungledevsbasiclayoutchallenge.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
