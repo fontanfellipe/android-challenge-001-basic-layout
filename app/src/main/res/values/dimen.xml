@@ -5,4 +5,7 @@
     <dimen name="base_font_size">15sp</dimen>
     <dimen name="forecast_temperature_celsius_symbol">24sp</dimen>
     <dimen name="radio_button_margin">8dp</dimen>
+    <dimen name="radio_button_checked_vertical_padding">8dp</dimen>
+    <dimen name="radio_button_checked_horizontal_padding">16dp</dimen>
+    <dimen name="radio_button_corner_radius">17.5dp</dimen>
 </resources>
