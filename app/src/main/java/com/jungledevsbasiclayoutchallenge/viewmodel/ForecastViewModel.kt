@@ -3,16 +3,22 @@ package com.jungledevsbasiclayoutchallenge.viewmodel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.jungledevsbasiclayoutchallenge.model.Forecast
+import com.jungledevsbasiclayoutchallenge.model.WeatherType
 import com.jungledevsbasiclayoutchallenge.repository.ForecastRepository
 
 class ForecastViewModel : ViewModel() {
 
     private val repository: ForecastRepository by lazy { ForecastRepository() }
 
-    var currentWeather: MutableLiveData<Forecast> = MutableLiveData()
+    val forecast: MutableLiveData<Forecast> = MutableLiveData()
+
+    init {
+        loadForecast()
+    }
 
     fun loadForecast() {
-        currentWeather.postValue(repository.getForecast())
+        forecast.postValue(repository.getForecast())
+        forecast.value?.temperature
     }
 
 }

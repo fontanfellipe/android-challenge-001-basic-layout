@@ -7,17 +7,17 @@ import java.util.*
 class ForecastRepository {
 
     private val mockData = listOf(
-        Forecast(WeatherType.LightWeather, "Sunny"),
-        Forecast(WeatherType.LightWeather, "Partly cloudy"),
-        Forecast(WeatherType.LightWeather, "Mostly cloudy"),
-        Forecast(WeatherType.MediumWeather, "Cloudy"),
-        Forecast(WeatherType.MediumWeather, "Showers"),
-        Forecast(WeatherType.MediumWeather, "Rain"),
-        Forecast(WeatherType.HeavyWeather, "Thunderstorm")
+        Forecast(WeatherType.SUNNY),
+        Forecast(WeatherType.PARTLY_CLOUDY),
+        Forecast(WeatherType.MOSTLY_CLOUDY),
+        Forecast(WeatherType.CLOUDY),
+        Forecast(WeatherType.SHOWERS),
+        Forecast(WeatherType.RAIN),
+        Forecast(WeatherType.THUNDERSTORM)
     )
 
     fun getForecast(): Forecast {
-        val randomWeather = Random().nextInt(7)
+        val randomWeather = Random().nextInt(6)
         return mockData[randomWeather]
     }
 

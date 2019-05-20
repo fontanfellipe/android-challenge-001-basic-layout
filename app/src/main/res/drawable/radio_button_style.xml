@@ -9,6 +9,6 @@
             android:right="@dimen/radio_button_checked_horizontal_padding"
             android:left="@dimen/radio_button_checked_horizontal_padding"/>
 
-    <corners android:radius="17.5dp"/>
+    <corners android:radius="@dimen/radio_button_corner_radius"/>
 
 </shape>
