@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="@color/vanishing_white"/>
+
+    <padding
+            android:bottom="@dimen/radio_button_checked_vertical_padding"
+            android:top="@dimen/radio_button_checked_vertical_padding"
+            android:right="@dimen/radio_button_checked_horizontal_padding"
+            android:left="@dimen/radio_button_checked_horizontal_padding"/>
+
+    <corners android:radius="@dimen/radio_button_corner_radius"/>
+
+</shape>

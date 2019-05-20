@@ -32,6 +32,7 @@ dependencies {
     implementation "androidx.constraintlayout:constraintlayout:$rootProject.constraintLayoutVersion"
     implementation "com.android.support:support-v4:$rootProject.supportVersion"
 
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     kapt "com.android.databinding:compiler:$rootProject.dataBindingVersion"
 
     testImplementation 'junit:junit:4.12'
