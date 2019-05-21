@@ -17,7 +17,7 @@ class ForecastRepository {
     )
 
     fun getForecast(): Forecast {
-        val randomWeather = Random().nextInt(6)
+        val randomWeather = Random().nextInt(7)
         return mockData[randomWeather]
     }
 

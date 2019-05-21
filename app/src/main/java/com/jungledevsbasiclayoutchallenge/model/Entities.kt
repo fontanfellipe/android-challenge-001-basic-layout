@@ -11,6 +11,7 @@ data class Forecast(
     val windSpeed: Int = 2,
     val rainDrops: Int = 20
 ) {
+    fun renderTemperature() = "$temperature"
     fun renderMaxTemperature() = "$maxTemperature"
     fun renderMinTemperature() = "$minTemperature"
     fun renderHumidity() = "$humidity ${R.string.percentage}"
@@ -18,7 +19,7 @@ data class Forecast(
     fun renderRainDrops() = "$rainDrops ${R.string.millimeters}"
 }
 
-enum class WeatherType(displayName: String, drawableId: Int) {
+enum class WeatherType(val displayName: String, val drawableId: Int) {
     SUNNY("Sunny", R.drawable.image_sunny),
     PARTLY_CLOUDY("Partly cloudy", R.drawable.image_partlycloudy),
     MOSTLY_CLOUDY("Mostly cloudy", R.drawable.image_mostlycloudy),

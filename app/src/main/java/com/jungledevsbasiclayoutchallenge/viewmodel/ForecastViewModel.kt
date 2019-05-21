@@ -18,7 +18,6 @@ class ForecastViewModel : ViewModel() {
 
     fun loadForecast() {
         forecast.postValue(repository.getForecast())
-        forecast.value?.temperature
     }
 
 }

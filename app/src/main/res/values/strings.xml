@@ -18,8 +18,8 @@
 
     <!-- forecast details region -->
     <string name="celsius_symbol">ºC</string>
-    <string name="percentage">%</string>
-    <string name="kilometers_per_hour_abbreviated">km/h</string>
-    <string name="millimeters">mm</string>
+    <string name="percentage">%1$d %%</string>
+    <string name="kilometers_per_hour_abbreviated">%d km/h</string>
+    <string name="millimeters">%d mm</string>
     <!-- endregion -->
 </resources>
