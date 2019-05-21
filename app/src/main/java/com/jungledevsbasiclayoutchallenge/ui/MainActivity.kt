@@ -1,6 +1,5 @@
 package com.jungledevsbasiclayoutchallenge.ui
 
-import android.graphics.drawable.Drawable
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
@@ -13,15 +12,13 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : BaseActivity() {
 
-    private lateinit var binding: ActivityMainBinding
-    private lateinit var viewModel: ForecastViewModel
+    private val binding: ActivityMainBinding by lazy { DataBindingUtil.setContentView<ActivityMainBinding>(this, R.layout.activity_main) }
+    private val viewModel: ForecastViewModel by lazy { ViewModelProviders.of(this).get(ForecastViewModel::class.java) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         setTheme(R.style.AppTheme)
         super.onCreate(savedInstanceState)
 
-        binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
-        viewModel = ViewModelProviders.of(this).get(ForecastViewModel::class.java)
         setupBindings(binding)
         registerObservers()
     }
@@ -48,7 +45,6 @@ class MainActivity : BaseActivity() {
 
     private fun setupBindings(binding: ActivityMainBinding?) {
         binding?.apply {
-            lifecycleOwner = this@MainActivity
             forecastViewModel = viewModel
             forecast = viewModel.forecast.value
             executePendingBindings()
