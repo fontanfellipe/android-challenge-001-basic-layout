@@ -2,9 +2,24 @@
 
 ## Description
 
+### Challenge Goal:
 This challenge has the purpose to introduce the usage of the tools we use at Jungle everyday while working in Android
-projects. As well as providing the opportunity to consolidate knowledge about layout. The app you will implement can be
-previewed in the images below, and the real assets will be available on [Zeplin](https://app.zeplin.io/project/5b9834cb594a8d59bfce97eb/dashboard?seid=5cd561e9cf972734bac68854).
+projects. As well as providing the opportunity to consolidate knowledge about layout.
+### Target Level
+This is an entry level course, no prior knowledge on the system is needed, but some notion of object oriented languages are encouraged.
+### Final Accomplishment 
+The app you are challenged to create can be previewed in the images below, and the real assets will be available on [Zeplin](https://app.zeplin.io/project/5b9834cb594a8d59bfce97eb/dashboard?seid=5cd561e9cf972734bac68854).
+
+<p float="left">
+<img src="/images/SplashScreen.png" height="15%" width="15%"/>
+<img src="/images/Cloudy.png" height="15%" width="15%"/>
+<img src="/images/MostlyCloudy.png" height="15%" width="15%"/>
+<img src="/images/PartlyCloudy.png" height="15%" width="15%" />
+<img src="/images/Rain.png" height="15%" width="15%" />
+<img src="/images/Showers.png" height="15%" width="15%" />
+<img src="/images/Sunny.png" height="15%" width="15%" />
+<img src="/images/ThunderStorm.png" height="15%" width="15%" />
+</p>
 
 ## Resources
 
@@ -24,17 +39,10 @@ previewed in the images below, and the real assets will be available on [Zeplin]
   * Humidity.
 * Clicking the today and tomorrow buttons switches the UI between the representations that were randomized on startup.
 
-<p float="left">
-<img src="/images/SplashScreen.png" height="15%" width="15%"/>
-<img src="/images/Cloudy.png" height="15%" width="15%"/>
-<img src="/images/MostlyCloudy.png" height="15%" width="15%"/>
-<img src="/images/PartlyCloudy.png" height="15%" width="15%" />
-<img src="/images/Rain.png" height="15%" width="15%" />
-<img src="/images/Showers.png" height="15%" width="15%" />
-<img src="/images/Sunny.png" height="15%" width="15%" />
-<img src="/images/ThunderStorm.png" height="15%" width="15%" />
-</p>
-
 ## Pre-requisites
 
-None
+Android Studio
+
+## Instructions to run
+
+Fork the repo, in the forked repo, create a new branch to work on. Create a new project using Android Studio and do your work on that branch of the forked repo. When done, open a pull request from your branch to the master branch of the forked repo so that the end result can be reviewed.
