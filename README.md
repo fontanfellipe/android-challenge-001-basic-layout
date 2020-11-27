@@ -7,7 +7,7 @@ This challenge has the purpose to introduce the usage of the tools we use at Jun
 projects. As well as providing the opportunity to consolidate knowledge about layout.
 ### Target Level
 This is an entry level course, no prior knowledge on the system is needed, but some notion of object oriented languages are encouraged.
-### Final Accomplishment 
+### Final Accomplishment
 The app you are challenged to create can be previewed in the images below, and the real assets will be available on [Zeplin](https://app.zeplin.io/project/5b9834cb594a8d59bfce97eb/dashboard?seid=5cd561e9cf972734bac68854).
 
 <p float="left">
@@ -23,7 +23,7 @@ The app you are challenged to create can be previewed in the images below, and t
 
 ## Resources
 
-- Zeplin: https://app.zeplin.io/project/5b9834cb594a8d59bfce97eb/dashboard?seid=5cd561e9cf972734bac68854
+- [Zeplin](https://app.zeplin.io/project/5b9834cb594a8d59bfce97eb/dashboard?seid=5cd561e9cf972734bac68854)
 
 ## Acceptance criteria
 
